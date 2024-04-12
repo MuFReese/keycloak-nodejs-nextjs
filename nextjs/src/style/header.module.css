@@ -1,0 +1,43 @@
+.headerMain{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 20px;
+  background-color: rgb(215, 215, 215);
+}
+
+.headerPortal{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 20px;
+  background-color: rgb(215, 215, 215);
+}
+.headerPortalConteiner{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.headerPortalLink{
+  font-size: 24px;
+  color: black;
+  transition-duration: 0.5s;
+}
+.headerPortalLink:hover{
+  transition-duration: 0.5s;
+  color: blue;
+}
+
+.profile{
+  display: flex;
+  margin: 30px;
+}
+
+.profileImage{
+  margin-right: 50px;
+  width: 180px;
+  height: 230px;
+  background-color: black;
+}
